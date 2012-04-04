@@ -1,0 +1,81 @@
+/* ========================
+
+	Author: Jason Robb
+	Description: 3D text using LessCSS, Lettering.js, and CSS3 text-shadows.
+	More info: https://github.com/jasonrobb/3D-text
+	Website: http://jasonrobb.com
+
+========================= */
+
+
+// Just a few basics
+body {
+	padding: 1em;
+}
+
+
+// Set a starting color, or not--you can specify color in the .char1 class
+@red: #c33;
+
+// Rainbow 3-D text
+.rain(@color: @red) {
+	color: @color;
+	text-shadow: -1px 0 1px lighten(@color, 10%),
+		1px 0 1px lighten(@color, 10%),
+		
+		-1px 1px 0 darken(@color, 5%),
+		-1px 2px 0 darken(@color, 6%),
+		-1px 3px 0 darken(@color, 7%),
+		-1px 4px 0 darken(@color, 8%),
+		-1px 5px 1px darken(@color, 15%),
+		
+		1px 1px 0 darken(@color, 5%),
+		1px 2px 0 darken(@color, 6%),
+		1px 3px 0 darken(@color, 7%),
+		1px 4px 0 darken(@color, 8%),
+		1px 5px 1px darken(@color, 15%),
+		
+		0 6px 4px mix(@color, (fade(#fff, 60%)), 60%),
+		
+		0 -6px 8px fade(#000, 2%),
+		0 6px 6px fade(#000, 30%),
+		0 8px 16px fade(#000, 20%);
+}
+
+// Make it rain
+h1 {
+	font-size: 3em;
+	line-height: 1.1;
+	
+	.char1 {
+		.rain(@red);
+	}
+	.char2 {
+		.rain(spin(@red, 2));
+	}
+	.char3 {
+		.rain(spin(@red, 4));
+	}
+	.char4 {
+		.rain(spin(@red, 6));
+	}
+	.char5 {
+		.rain(spin(@red, 8));
+	}
+
+	// blank space
+	// .char6
+	
+	.char7 {
+		.rain(spin(@red, 10));
+	}
+	.char8 {
+		.rain(spin(@red, 12));
+	}
+	.char9 {
+		.rain(spin(@red, 14));
+	}
+	.char10 {
+		.rain(spin(@red, 16));
+	}
+}
