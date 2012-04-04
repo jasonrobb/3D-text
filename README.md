@@ -1,5 +1,5 @@
 # Example
-![Example](example.png)  
+![Example](/3D-text/example.png)  
 
 # What it is
 3D text using LessCSS, Lettering.js, and CSS3 text-shadows.
