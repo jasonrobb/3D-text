@@ -1,5 +1,5 @@
 # Example
-![Example](/jasonrobb/3D-text/example.png)  
+![Example](https://github.com/jasonrobb/3D-text/blob/master/example.png?raw=true)  
 
 # What it is
 3D text using LessCSS, Lettering.js, and CSS3 text-shadows.
