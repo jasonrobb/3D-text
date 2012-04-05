@@ -13,12 +13,12 @@ body {
   padding: 0 5em;
 }
 input {
-  border:1px solid #aaa;
-  border-radius:4px;
-  padding:10px;
-  font-size:16px;
-  margin:20px 0 0 0;
-  background:white;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  margin: 20px 0 0 0;
+  background: white;
 }
 h1 {
   font-size: 5em;
@@ -87,4 +87,80 @@ h1 .char15 {
 h1 .char16 {
   color: #cc8033;
   text-shadow: -1px 0 1px #d6995c, 1px 0 1px #d6995c, -1px 1px 0 #b8732e, -1px 2px 0 #b4702d, -1px 3px 0 #af6e2c, -1px 4px 0 #ab6b2b, -1px 5px 1px #8f5924, 1px 1px 0 #b8732e, 1px 2px 0 #b4702d, 1px 3px 0 #af6e2c, 1px 4px 0 #ab6b2b, 1px 5px 1px #8f5924, 0 6px 4px rgba(215, 156, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char17 {
+  color: #cc8533;
+  text-shadow: -1px 0 1px #d69d5c, 1px 0 1px #d69d5c, -1px 1px 0 #b8772e, -1px 2px 0 #b4752d, -1px 3px 0 #af722c, -1px 4px 0 #ab6f2b, -1px 5px 1px #8f5d24, 1px 1px 0 #b8772e, 1px 2px 0 #b4752d, 1px 3px 0 #af722c, 1px 4px 0 #ab6f2b, 1px 5px 1px #8f5d24, 0 6px 4px rgba(215, 160, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char18 {
+  color: #cc8a33;
+  text-shadow: -1px 0 1px #d6a15c, 1px 0 1px #d6a15c, -1px 1px 0 #b87c2e, -1px 2px 0 #b4792d, -1px 3px 0 #af762c, -1px 4px 0 #ab742b, -1px 5px 1px #8f6024, 1px 1px 0 #b87c2e, 1px 2px 0 #b4792d, 1px 3px 0 #af762c, 1px 4px 0 #ab742b, 1px 5px 1px #8f6024, 0 6px 4px rgba(215, 164, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char19 {
+  color: #cc8f33;
+  text-shadow: -1px 0 1px #d6a55c, 1px 0 1px #d6a55c, -1px 1px 0 #b8812e, -1px 2px 0 #b47e2d, -1px 3px 0 #af7b2c, -1px 4px 0 #ab782b, -1px 5px 1px #8f6424, 1px 1px 0 #b8812e, 1px 2px 0 #b47e2d, 1px 3px 0 #af7b2c, 1px 4px 0 #ab782b, 1px 5px 1px #8f6424, 0 6px 4px rgba(215, 168, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char20 {
+  color: #cc9433;
+  text-shadow: -1px 0 1px #d6a95c, 1px 0 1px #d6a95c, -1px 1px 0 #b8852e, -1px 2px 0 #b4822d, -1px 3px 0 #af7f2c, -1px 4px 0 #ab7c2b, -1px 5px 1px #8f6824, 1px 1px 0 #b8852e, 1px 2px 0 #b4822d, 1px 3px 0 #af7f2c, 1px 4px 0 #ab7c2b, 1px 5px 1px #8f6824, 0 6px 4px rgba(215, 172, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char21 {
+  color: #cc9933;
+  text-shadow: -1px 0 1px #d6ad5c, 1px 0 1px #d6ad5c, -1px 1px 0 #b88a2e, -1px 2px 0 #b4872d, -1px 3px 0 #af842c, -1px 4px 0 #ab812b, -1px 5px 1px #8f6b24, 1px 1px 0 #b88a2e, 1px 2px 0 #b4872d, 1px 3px 0 #af842c, 1px 4px 0 #ab812b, 1px 5px 1px #8f6b24, 0 6px 4px rgba(215, 176, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char22 {
+  color: #cc9e33;
+  text-shadow: -1px 0 1px #d6b15c, 1px 0 1px #d6b15c, -1px 1px 0 #b88e2e, -1px 2px 0 #b48b2d, -1px 3px 0 #af882c, -1px 4px 0 #ab852b, -1px 5px 1px #8f6f24, 1px 1px 0 #b88e2e, 1px 2px 0 #b48b2d, 1px 3px 0 #af882c, 1px 4px 0 #ab852b, 1px 5px 1px #8f6f24, 0 6px 4px rgba(215, 180, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char23 {
+  color: #cca333;
+  text-shadow: -1px 0 1px #d6b65c, 1px 0 1px #d6b65c, -1px 1px 0 #b8932e, -1px 2px 0 #b4902d, -1px 3px 0 #af8c2c, -1px 4px 0 #ab892b, -1px 5px 1px #8f7224, 1px 1px 0 #b8932e, 1px 2px 0 #b4902d, 1px 3px 0 #af8c2c, 1px 4px 0 #ab892b, 1px 5px 1px #8f7224, 0 6px 4px rgba(215, 184, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char24 {
+  color: #cca833;
+  text-shadow: -1px 0 1px #d6ba5c, 1px 0 1px #d6ba5c, -1px 1px 0 #b8972e, -1px 2px 0 #b4942d, -1px 3px 0 #af912c, -1px 4px 0 #ab8d2b, -1px 5px 1px #8f7624, 1px 1px 0 #b8972e, 1px 2px 0 #b4942d, 1px 3px 0 #af912c, 1px 4px 0 #ab8d2b, 1px 5px 1px #8f7624, 0 6px 4px rgba(215, 188, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char25 {
+  color: #ccad33;
+  text-shadow: -1px 0 1px #d6be5c, 1px 0 1px #d6be5c, -1px 1px 0 #b89c2e, -1px 2px 0 #b4992d, -1px 3px 0 #af952c, -1px 4px 0 #ab922b, -1px 5px 1px #8f7924, 1px 1px 0 #b89c2e, 1px 2px 0 #b4992d, 1px 3px 0 #af952c, 1px 4px 0 #ab922b, 1px 5px 1px #8f7924, 0 6px 4px rgba(215, 192, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char26 {
+  color: #ccb333;
+  text-shadow: -1px 0 1px #d6c25c, 1px 0 1px #d6c25c, -1px 1px 0 #b8a12e, -1px 2px 0 #b49d2d, -1px 3px 0 #af9a2c, -1px 4px 0 #ab962b, -1px 5px 1px #8f7d24, 1px 1px 0 #b8a12e, 1px 2px 0 #b49d2d, 1px 3px 0 #af9a2c, 1px 4px 0 #ab962b, 1px 5px 1px #8f7d24, 0 6px 4px rgba(215, 196, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char27 {
+  color: #ccb833;
+  text-shadow: -1px 0 1px #d6c65c, 1px 0 1px #d6c65c, -1px 1px 0 #b8a52e, -1px 2px 0 #b4a22d, -1px 3px 0 #af9e2c, -1px 4px 0 #ab9a2b, -1px 5px 1px #8f8124, 1px 1px 0 #b8a52e, 1px 2px 0 #b4a22d, 1px 3px 0 #af9e2c, 1px 4px 0 #ab9a2b, 1px 5px 1px #8f8124, 0 6px 4px rgba(215, 199, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char28 {
+  color: #ccbd33;
+  text-shadow: -1px 0 1px #d6ca5c, 1px 0 1px #d6ca5c, -1px 1px 0 #b8aa2e, -1px 2px 0 #b4a62d, -1px 3px 0 #afa22c, -1px 4px 0 #ab9f2b, -1px 5px 1px #8f8424, 1px 1px 0 #b8aa2e, 1px 2px 0 #b4a62d, 1px 3px 0 #afa22c, 1px 4px 0 #ab9f2b, 1px 5px 1px #8f8424, 0 6px 4px rgba(215, 203, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char29 {
+  color: #ccc233;
+  text-shadow: -1px 0 1px #d6ce5c, 1px 0 1px #d6ce5c, -1px 1px 0 #b8ae2e, -1px 2px 0 #b4ab2d, -1px 3px 0 #afa72c, -1px 4px 0 #aba32b, -1px 5px 1px #8f8824, 1px 1px 0 #b8ae2e, 1px 2px 0 #b4ab2d, 1px 3px 0 #afa72c, 1px 4px 0 #aba32b, 1px 5px 1px #8f8824, 0 6px 4px rgba(215, 207, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char30 {
+  color: #ccc733;
+  text-shadow: -1px 0 1px #d6d25c, 1px 0 1px #d6d25c, -1px 1px 0 #b8b32e, -1px 2px 0 #b4af2d, -1px 3px 0 #afab2c, -1px 4px 0 #aba72b, -1px 5px 1px #8f8b24, 1px 1px 0 #b8b32e, 1px 2px 0 #b4af2d, 1px 3px 0 #afab2c, 1px 4px 0 #aba72b, 1px 5px 1px #8f8b24, 0 6px 4px rgba(215, 211, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char31 {
+  color: #cccc33;
+  text-shadow: -1px 0 1px #d6d65c, 1px 0 1px #d6d65c, -1px 1px 0 #b8b82e, -1px 2px 0 #b4b42d, -1px 3px 0 #afaf2c, -1px 4px 0 #abab2b, -1px 5px 1px #8f8f24, 1px 1px 0 #b8b82e, 1px 2px 0 #b4b42d, 1px 3px 0 #afaf2c, 1px 4px 0 #abab2b, 1px 5px 1px #8f8f24, 0 6px 4px rgba(215, 215, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char32 {
+  color: #c7cc33;
+  text-shadow: -1px 0 1px #d2d65c, 1px 0 1px #d2d65c, -1px 1px 0 #b3b82e, -1px 2px 0 #afb42d, -1px 3px 0 #abaf2c, -1px 4px 0 #a7ab2b, -1px 5px 1px #8b8f24, 1px 1px 0 #b3b82e, 1px 2px 0 #afb42d, 1px 3px 0 #abaf2c, 1px 4px 0 #a7ab2b, 1px 5px 1px #8b8f24, 0 6px 4px rgba(211, 215, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char33 {
+  color: #c2cc33;
+  text-shadow: -1px 0 1px #ced65c, 1px 0 1px #ced65c, -1px 1px 0 #aeb82e, -1px 2px 0 #abb42d, -1px 3px 0 #a7af2c, -1px 4px 0 #a3ab2b, -1px 5px 1px #888f24, 1px 1px 0 #aeb82e, 1px 2px 0 #abb42d, 1px 3px 0 #a7af2c, 1px 4px 0 #a3ab2b, 1px 5px 1px #888f24, 0 6px 4px rgba(207, 215, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char34 {
+  color: #bdcc33;
+  text-shadow: -1px 0 1px #cad65c, 1px 0 1px #cad65c, -1px 1px 0 #aab82e, -1px 2px 0 #a6b42d, -1px 3px 0 #a2af2c, -1px 4px 0 #9fab2b, -1px 5px 1px #848f24, 1px 1px 0 #aab82e, 1px 2px 0 #a6b42d, 1px 3px 0 #a2af2c, 1px 4px 0 #9fab2b, 1px 5px 1px #848f24, 0 6px 4px rgba(203, 215, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char35 {
+  color: #b8cc33;
+  text-shadow: -1px 0 1px #c6d65c, 1px 0 1px #c6d65c, -1px 1px 0 #a5b82e, -1px 2px 0 #a2b42d, -1px 3px 0 #9eaf2c, -1px 4px 0 #9aab2b, -1px 5px 1px #818f24, 1px 1px 0 #a5b82e, 1px 2px 0 #a2b42d, 1px 3px 0 #9eaf2c, 1px 4px 0 #9aab2b, 1px 5px 1px #818f24, 0 6px 4px rgba(199, 215, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
 }
