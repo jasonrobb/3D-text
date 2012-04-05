@@ -12,6 +12,14 @@ body {
   font-family: sans-serif;
   padding: 0 5em;
 }
+input {
+  border:1px solid #aaa;
+  border-radius:4px;
+  padding:10px;
+  font-size:16px;
+  margin:20px 0 0 0;
+  background:white;
+}
 h1 {
   font-size: 5em;
   line-height: 1.1;
