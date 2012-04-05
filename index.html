@@ -5,7 +5,7 @@
 	<link href="css/3D-text.css" rel="stylesheet">
 </head>
 <body>
-
+	<label>Edit Text: </label><input type="text" value="Make it rain!"/>
 	<h1>Make it rain!</h1>
 	
 	<p>3D text by <a href="http://jasonrobb.com">Jason Robb</a>. Fork it or something <a href="https://github.com/jasonrobb/3D-text">on Github</a>.</p>
@@ -15,6 +15,10 @@
 	<script>
 	$(document).ready(function() {
 		$("h1").lettering();
+		$("input").keyup(function(){
+			$("h1").text($(this).val());
+			$("h1").lettering();
+		})
 	});
 	</script>
 </body>
