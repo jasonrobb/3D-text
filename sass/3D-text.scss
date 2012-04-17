@@ -1,0 +1,92 @@
+// Just a few basics
+body {
+	background-color: #e5e4e1;
+	color: #333;
+	font-family: sans-serif;
+	padding: 0 5em;
+}
+
+
+// Set a starting color
+$red: #c33;
+
+// Rainbow 3-D text
+@mixin rain($color) {
+		color:$color;
+		text-shadow: -1px 0 1px lighten($color, 10%),
+		1px 0 1px lighten($color, 10%),
+		
+		-1px 1px 0 darken($color, 5%),
+		-1px 2px 0 darken($color, 6%),
+		-1px 3px 0 darken($color, 7%),
+		-1px 4px 0 darken($color, 8%),
+		-1px 5px 1px darken($color, 15%),
+		
+		1px 1px 0 darken($color, 5%),
+		1px 2px 0 darken($color, 6%),
+		1px 3px 0 darken($color, 7%),
+		1px 4px 0 darken($color, 8%),
+		1px 5px 1px darken($color, 15%),
+		
+		0 6px 4px mix($color, (fade-out(#fff, 0.6))),
+	
+		0 8px 16px fade-out(#000, 0.7);
+}
+
+// Make it rain
+h1 {
+	font-size: 5em;
+	line-height: 1.1;
+	
+	
+	.char1 {
+		@include rain($red);
+	}
+	.char2 {
+		@include rain(adjust-hue($red, 2deg));
+	}
+	.char3 {
+		@include rain(adjust-hue($red, 4deg));
+	}
+	.char4 {
+		@include rain(adjust-hue($red, 6deg));
+	}
+	.char5 {
+		@include rain(adjust-hue($red, 8deg));
+	}
+	.char6 {
+		@include rain(adjust-hue($red, 10deg));
+	}
+	.char7 {
+		@include rain(adjust-hue($red, 12deg));
+	}
+	.char8 {
+		@include rain(adjust-hue($red, 14deg));
+	}
+	.char9 {
+		@include rain(adjust-hue($red, 16deg));
+	}
+	.char10 {
+		@include rain(adjust-hue($red, 18deg));
+	}
+	.char11 {
+		@include rain(adjust-hue($red, 20deg));
+	}
+	.char12 {
+		@include rain(adjust-hue($red, 22deg));
+	}
+	.char13 {
+		@include rain(adjust-hue($red, 24deg));
+	}
+	.char14 {
+		@include rain(adjust-hue($red, 26deg));
+	}
+	.char15 {
+		@include rain(adjust-hue($red, 28deg));
+	}
+	.char16 {
+		@include rain(adjust-hue($red, 30deg));
+	}
+	
+	// Yea, you're going to have to repeat this for now. Until I actually make something to do it for you.
+}
