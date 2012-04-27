@@ -1,21 +1,63 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>3D text</title>
-	<link href="css/3D-text.css" rel="stylesheet">
-</head>
-<body>
-
-	<h1>Make it rain!</h1>
 	
-	<p>3D text by <a href="http://jasonrobb.com">Jason Robb</a>. Fork it or something <a href="https://github.com/jasonrobb/3D-text">on Github</a>.</p>
+	<!-- UTF8-coding -->
+	<meta charset="utf-8" />
+	<title>3D text</title>
 
+	<link href="css/3D-text.css" rel="stylesheet" type="text/css" id="stylelink">
+
+	<!-- JS -->
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.lettering.js"></script>
-	<script>
-	$(document).ready(function() {
+	<script type="text/javascript">
+		
+	function changeScheme()
+	{ 
+	  $('#stylelink').attr('href',$('#colourselector').val());
+	}
+	
+	function changeText(){
+		var userInput = document.getElementById('userInput').value;
+		document.getElementById('textedit').innerHTML = userInput;
+		
 		$("h1").lettering();
-	});
+
+		
+	}
 	</script>
+	<!-- JS END -->
+
+
+</head>
+<body>
+	
+
+
+	<!-- CHANGE STYLE COLORS FORM -->
+    <form action="#" name="colour" id="colour" onsubmit="return false;">
+    
+    
+ 	<!-- HTML Writing text form -->
+	<input type='text' id='userInput' value='Enter Text Here' />
+	<input type='button' onclick='changeText()' value='Enter'/>	   
+    
+    <!-- CHANGE STYLE COLORS FORM -->
+    <select id="colourselector" name="colour" onchange="changeScheme();">
+			  
+            <option value="css/3D-text.css">Red</option>
+            <option value="css/green.css">Green</option>
+            
+          </select>
+          
+          <h1><b id='textedit'></h1></b> </p>	
+          
+    <!-- IMPORT JQUERY AND JQUERY.LETTERING.JS -->
+	<p>3D text by <a href="http://jasonrobb.com">Jason Robb</a>. Fork it or something <a href="https://github.com/jasonrobb/3D-text">on Github</a>.</p>
+
+	
+    </form>
+    <!-- CHANGE STYLE COLORS FORM / END -->
 </body>
-</html>
+
