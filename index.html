@@ -1,21 +1,96 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>3D text</title>
-	<link href="css/3D-text.css" rel="stylesheet">
-</head>
-<body>
-
-	<h1>Make it rain!</h1>
 	
-	<p>3D text by <a href="http://jasonrobb.com">Jason Robb</a>. Fork it or something <a href="https://github.com/jasonrobb/3D-text">on Github</a>.</p>
+	<!-- UTF8-coding -->
+	<meta charset="utf-8" />
+	<title>3D text</title>
 
+	<link href="css/red.css" rel="stylesheet" type="text/css" id="stylelink">
+
+	<!-- JS -->
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.lettering.js"></script>
-	<script>
+	<script type="text/javascript">
+		
+	function changeScheme()
+	{ 
+	  $('#stylelink').attr('href',$('#colourselector').val());
+	}
+	<!-- Textbox Lettering -->
 	$(document).ready(function() {
-		$("h1").lettering();
+	$("h1").lettering();
+	$("input").keyup(function(){
+	$("h1").text($(this).val());
+	$("h1").lettering();
+	})
 	});
+
+    function bakeCookie(name,value){
+    args=arguments;argc=args.length;
+    expires=(argc>2) ? args[2] : null;
+    path=(argc>3) ? args[3] : null;
+    domain=(argc>4) ? args[4] : null;
+    secure=(argc>5) ? args[5] : false;
+    expDate=new Date();day=24*60*60*1000;
+    if(expires){expDate.setTime(expDate.getTime()+expires*day);}
+    document.cookie=name+"="+escape(value)+
+    ((expires===null) ? "" : ("; expires="+expDate.toUTCString()))+
+    ((path===null) ? "" : ("; path="+path))+
+    ((domain===null) ? "" : ("; domain="+domain))+
+    ((secure===true) ? "; secure" : "");
+    }		
+
+    function newFont(entry,areaID){ // use DOM method
+    bakeCookie("fontSet",entry,7); // save for a week
+    if (!areaID){areaID="select1";} // default to whole body
+    document.getElementById(areaID).style.fontFamily=entry;
+    }
+	
 	</script>
+	<!-- JS END -->
+</head>
+
+<body id="body">
+ 	<!-- HTML Writing text form -->
+	<input type='text' id='userInput' value='' maxlength="16"/>
+    
+    <!-- CHANGE STYLE COLORS FORM -->
+<span>
+    <select id="colourselector" name="colour" onchange="changeScheme();">
+            <option value="css/red.css">Red</option>
+            <option value="css/green.css">Green</option>
+            <option value="css/blue.css">Blue</option>
+    </select>
+			
+		<span id='select1'>	
+		<select name="changefont" onchange="newFont(this.value);">
+			<option value="">Font Family</option>
+			<option value="Arial">Arial</option>
+			<option value="cmmi10">Cmmi10</option>
+			<option value="Webdings">Webdings</option>
+			<option value="Tahoma">Tahoma</option>
+			<option value="Times New Roman">Times New Roman</option>
+			<option value="Verdana">Verdana</option>
+			<option value="Courier">Courier</option>
+			
+			
+		</select>
+		<h1> 3D-Text <b id='textedit'></h1></b> </p>
+		</span>
+</span>	
+			
+          	
+          
+    <!-- IMPORT JQUERY AND JQUERY.LETTERING.JS -->
+<<<<<<< HEAD
+	<p>3D text by <a href="http://jasonrobb.com">Jason Robb</a>. Fork it or something <a href="https://github.com/lobocode/3D-text">on Github</a>.</p>
+=======
+	<p>3D text by <a href="http://jasonrobb.com">Jason Robb</a>. Fork it or something <a href="https://github.com/jasonrobb/3D-text">on Github</a>.</p>
+>>>>>>> 4223476ea278439ed5e851f7c7053f7ebd34fe23
+
+	
+    </form>
+    <!-- CHANGE STYLE COLORS FORM / END -->
 </body>
 </html>
