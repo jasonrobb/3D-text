@@ -1,0 +1,82 @@
+/* ========================
+
+	Author: Jason Robb
+	Description: 3D text using LessCSS, Lettering.js, and CSS3 text-shadows.
+	More info: https://github.com/jasonrobb/3D-text
+	Website: http://jasonrobb.com
+
+========================= */
+body {
+  background-color: #e5e4e1;
+  color: #333;
+  font-family: sans-serif;
+  padding: 0 5em;
+}
+h1 {
+  font-size: 5em;
+  line-height: 1.1;
+}
+h1 .char1 {
+  color: #cc3333;
+  text-shadow: -1px 0 1px #d65c5c, 1px 0 1px #d65c5c, -1px 1px 0 #b82e2e, -1px 2px 0 #b42d2d, -1px 3px 0 #af2c2c, -1px 4px 0 #ab2b2b, -1px 5px 1px #8f2424, 1px 1px 0 #b82e2e, 1px 2px 0 #b42d2d, 1px 3px 0 #af2c2c, 1px 4px 0 #ab2b2b, 1px 5px 1px #8f2424, 0 6px 4px rgba(215, 96, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char2 {
+  color: #cc3833;
+  text-shadow: -1px 0 1px #d6605c, 1px 0 1px #d6605c, -1px 1px 0 #b8322e, -1px 2px 0 #b4312d, -1px 3px 0 #af302c, -1px 4px 0 #ab2f2b, -1px 5px 1px #8f2724, 1px 1px 0 #b8322e, 1px 2px 0 #b4312d, 1px 3px 0 #af302c, 1px 4px 0 #ab2f2b, 1px 5px 1px #8f2724, 0 6px 4px rgba(215, 100, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char3 {
+  color: #cc3d33;
+  text-shadow: -1px 0 1px #d6645c, 1px 0 1px #d6645c, -1px 1px 0 #b8372e, -1px 2px 0 #b4362d, -1px 3px 0 #af352c, -1px 4px 0 #ab332b, -1px 5px 1px #8f2b24, 1px 1px 0 #b8372e, 1px 2px 0 #b4362d, 1px 3px 0 #af352c, 1px 4px 0 #ab332b, 1px 5px 1px #8f2b24, 0 6px 4px rgba(215, 104, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char4 {
+  color: #cc4233;
+  text-shadow: -1px 0 1px #d6685c, 1px 0 1px #d6685c, -1px 1px 0 #b83c2e, -1px 2px 0 #b43a2d, -1px 3px 0 #af392c, -1px 4px 0 #ab382b, -1px 5px 1px #8f2e24, 1px 1px 0 #b83c2e, 1px 2px 0 #b43a2d, 1px 3px 0 #af392c, 1px 4px 0 #ab382b, 1px 5px 1px #8f2e24, 0 6px 4px rgba(215, 108, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char5 {
+  color: #cc4733;
+  text-shadow: -1px 0 1px #d66c5c, 1px 0 1px #d66c5c, -1px 1px 0 #b8402e, -1px 2px 0 #b43f2d, -1px 3px 0 #af3d2c, -1px 4px 0 #ab3c2b, -1px 5px 1px #8f3224, 1px 1px 0 #b8402e, 1px 2px 0 #b43f2d, 1px 3px 0 #af3d2c, 1px 4px 0 #ab3c2b, 1px 5px 1px #8f3224, 0 6px 4px rgba(215, 112, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char6 {
+  color: #cc4d33;
+  text-shadow: -1px 0 1px #d6705c, 1px 0 1px #d6705c, -1px 1px 0 #b8452e, -1px 2px 0 #b4432d, -1px 3px 0 #af422c, -1px 4px 0 #ab402b, -1px 5px 1px #8f3624, 1px 1px 0 #b8452e, 1px 2px 0 #b4432d, 1px 3px 0 #af422c, 1px 4px 0 #ab402b, 1px 5px 1px #8f3624, 0 6px 4px rgba(215, 116, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char7 {
+  color: #cc5233;
+  text-shadow: -1px 0 1px #d6745c, 1px 0 1px #d6745c, -1px 1px 0 #b8492e, -1px 2px 0 #b4482d, -1px 3px 0 #af462c, -1px 4px 0 #ab452b, -1px 5px 1px #8f3924, 1px 1px 0 #b8492e, 1px 2px 0 #b4482d, 1px 3px 0 #af462c, 1px 4px 0 #ab452b, 1px 5px 1px #8f3924, 0 6px 4px rgba(215, 120, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char8 {
+  color: #cc5733;
+  text-shadow: -1px 0 1px #d6785c, 1px 0 1px #d6785c, -1px 1px 0 #b84e2e, -1px 2px 0 #b44c2d, -1px 3px 0 #af4b2c, -1px 4px 0 #ab492b, -1px 5px 1px #8f3d24, 1px 1px 0 #b84e2e, 1px 2px 0 #b44c2d, 1px 3px 0 #af4b2c, 1px 4px 0 #ab492b, 1px 5px 1px #8f3d24, 0 6px 4px rgba(215, 124, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char9 {
+  color: #cc5c33;
+  text-shadow: -1px 0 1px #d67c5c, 1px 0 1px #d67c5c, -1px 1px 0 #b8532e, -1px 2px 0 #b4512d, -1px 3px 0 #af4f2c, -1px 4px 0 #ab4d2b, -1px 5px 1px #8f4024, 1px 1px 0 #b8532e, 1px 2px 0 #b4512d, 1px 3px 0 #af4f2c, 1px 4px 0 #ab4d2b, 1px 5px 1px #8f4024, 0 6px 4px rgba(215, 128, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char10 {
+  color: #cc6133;
+  text-shadow: -1px 0 1px #d6815c, 1px 0 1px #d6815c, -1px 1px 0 #b8572e, -1px 2px 0 #b4552d, -1px 3px 0 #af532c, -1px 4px 0 #ab512b, -1px 5px 1px #8f4424, 1px 1px 0 #b8572e, 1px 2px 0 #b4552d, 1px 3px 0 #af532c, 1px 4px 0 #ab512b, 1px 5px 1px #8f4424, 0 6px 4px rgba(215, 132, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char11 {
+  color: #cc6633;
+  text-shadow: -1px 0 1px #d6855c, 1px 0 1px #d6855c, -1px 1px 0 #b85c2e, -1px 2px 0 #b45a2d, -1px 3px 0 #af582c, -1px 4px 0 #ab562b, -1px 5px 1px #8f4724, 1px 1px 0 #b85c2e, 1px 2px 0 #b45a2d, 1px 3px 0 #af582c, 1px 4px 0 #ab562b, 1px 5px 1px #8f4724, 0 6px 4px rgba(215, 136, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char12 {
+  color: #cc6b33;
+  text-shadow: -1px 0 1px #d6895c, 1px 0 1px #d6895c, -1px 1px 0 #b8602e, -1px 2px 0 #b45e2d, -1px 3px 0 #af5c2c, -1px 4px 0 #ab5a2b, -1px 5px 1px #8f4b24, 1px 1px 0 #b8602e, 1px 2px 0 #b45e2d, 1px 3px 0 #af5c2c, 1px 4px 0 #ab5a2b, 1px 5px 1px #8f4b24, 0 6px 4px rgba(215, 140, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char13 {
+  color: #cc7033;
+  text-shadow: -1px 0 1px #d68d5c, 1px 0 1px #d68d5c, -1px 1px 0 #b8652e, -1px 2px 0 #b4632d, -1px 3px 0 #af602c, -1px 4px 0 #ab5e2b, -1px 5px 1px #8f4f24, 1px 1px 0 #b8652e, 1px 2px 0 #b4632d, 1px 3px 0 #af602c, 1px 4px 0 #ab5e2b, 1px 5px 1px #8f4f24, 0 6px 4px rgba(215, 144, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char14 {
+  color: #cc7533;
+  text-shadow: -1px 0 1px #d6915c, 1px 0 1px #d6915c, -1px 1px 0 #b86a2e, -1px 2px 0 #b4672d, -1px 3px 0 #af652c, -1px 4px 0 #ab632b, -1px 5px 1px #8f5224, 1px 1px 0 #b86a2e, 1px 2px 0 #b4672d, 1px 3px 0 #af652c, 1px 4px 0 #ab632b, 1px 5px 1px #8f5224, 0 6px 4px rgba(215, 148, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char15 {
+  color: #cc7a33;
+  text-shadow: -1px 0 1px #d6955c, 1px 0 1px #d6955c, -1px 1px 0 #b86e2e, -1px 2px 0 #b46c2d, -1px 3px 0 #af692c, -1px 4px 0 #ab672b, -1px 5px 1px #8f5624, 1px 1px 0 #b86e2e, 1px 2px 0 #b46c2d, 1px 3px 0 #af692c, 1px 4px 0 #ab672b, 1px 5px 1px #8f5624, 0 6px 4px rgba(215, 152, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char16 {
+  color: #cc8033;
+  text-shadow: -1px 0 1px #d6995c, 1px 0 1px #d6995c, -1px 1px 0 #b8732e, -1px 2px 0 #b4702d, -1px 3px 0 #af6e2c, -1px 4px 0 #ab6b2b, -1px 5px 1px #8f5924, 1px 1px 0 #b8732e, 1px 2px 0 #b4702d, 1px 3px 0 #af6e2c, 1px 4px 0 #ab6b2b, 1px 5px 1px #8f5924, 0 6px 4px rgba(215, 156, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}

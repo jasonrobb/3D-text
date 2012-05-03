@@ -1,0 +1,82 @@
+/* ========================
+
+	Author: Vitor Lobo
+	Description: 3Dtext_green using LessCSS, Lettering.js, and CSS3 text-shadows.
+	More info: https://github.com/lobocode/3D-text
+	Website: http://devwhole.blogspot.com
+
+========================= */
+body {
+  background-color: #e5e4e1;
+  color: #333;
+  font-family: sans-serif;
+  padding: 0 5em;
+}
+h1 {
+  font-size: 5em;
+  line-height: 1.1;
+}
+h1 .char1 {
+  color: #297b35;
+  text-shadow: -1px 0 1px #39ae4b, 1px 0 1px #39ae4b, -1px 1px 0 #256f30, -1px 2px 0 #246d2f, -1px 3px 0 #236a2e, -1px 4px 0 #22672c, -1px 5px 1px #1c5525, 1px 1px 0 #256f30, 1px 2px 0 #246d2f, 1px 3px 0 #236a2e, 1px 4px 0 #22672c, 1px 5px 1px #1c5525, 0 6px 4px rgba(100, 96, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char2 {
+  color: #2b8037;
+  text-shadow: -1px 0 1px #3bb24d, 1px 0 1px #3bb24d, -1px 1px 0 #267332, -1px 2px 0 #257131, -1px 3px 0 #256f30, -1px 4px 0 #236b2e, -1px 5px 1px #1d5826, 1px 1px 0 #267332, 1px 2px 0 #257131, 1px 3px 0 #256f30, 1px 4px 0 #236b2e, 1px 5px 1px #1d5826, 0 6px 4px rgba(100, 100, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char3 {
+  color: #2c8539;
+  text-shadow: -1px 0 1px #3db74f, 1px 0 1px #3db74f, -1px 1px 0 #287934, -1px 2px 0 #277633, -1px 3px 0 #267332, -1px 4px 0 #257030, -1px 5px 1px #1e5c28, 1px 1px 0 #287934, 1px 2px 0 #277633, 1px 3px 0 #267332, 1px 4px 0 #257030, 1px 5px 1px #1e5c28, 0 6px 4px rgba(100, 104, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char4 {
+  color: #2e8b3c;
+  text-shadow: -1px 0 1px #3ebb51, 1px 0 1px #3ebb51, -1px 1px 0 #297e36, -1px 2px 0 #297b35, -1px 3px 0 #277733, -1px 4px 0 #277633, -1px 5px 1px #1f5f29, 1px 1px 0 #297e36, 1px 2px 0 #297b35, 1px 3px 0 #277733, 1px 4px 0 #277633, 1px 5px 1px #1f5f29, 0 6px 4px rgba(100, 108, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char5 {
+  color: #2f8f3e;
+  text-shadow: -1px 0 1px #40bf53, 1px 0 1px #40bf53, -1px 1px 0 #2b8238, -1px 2px 0 #2b8037, -1px 3px 0 #297c35, -1px 4px 0 #287934, -1px 5px 1px #21642b, 1px 1px 0 #2b8238, 1px 2px 0 #2b8037, 1px 3px 0 #297c35, 1px 4px 0 #287934, 1px 5px 1px #21642b, 0 6px 4px rgba(100, 112, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char6 {
+  color: #329741;
+  text-shadow: -1px 0 1px #44c057, 1px 0 1px #44c057, -1px 1px 0 #2d883b, -1px 2px 0 #2b8339, -1px 3px 0 #2b8238, -1px 4px 0 #297e36, -1px 5px 1px #23692d, 1px 1px 0 #2d883b, 1px 2px 0 #2b8339, 1px 3px 0 #2b8238, 1px 4px 0 #297e36, 1px 5px 1px #23692d, 0 6px 4px rgba(100, 116, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char7 {
+  color: #339c43;
+  text-shadow: -1px 0 1px #48c15a, 1px 0 1px #48c15a, -1px 1px 0 #2f8d3d, -1px 2px 0 #2d893b, -1px 3px 0 #2d873a, -1px 4px 0 #2b8339, -1px 5px 1px #236b2e, 1px 1px 0 #2f8d3d, 1px 2px 0 #2d893b, 1px 3px 0 #2d873a, 1px 4px 0 #2b8339, 1px 5px 1px #236b2e, 0 6px 4px rgba(100, 120, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char8 {
+  color: #35a146;
+  text-shadow: -1px 0 1px #4cc35e, 1px 0 1px #4cc35e, -1px 1px 0 #30913f, -1px 2px 0 #2f8e3d, -1px 3px 0 #2e8b3c, -1px 4px 0 #2d883b, -1px 5px 1px #257030, 1px 1px 0 #30913f, 1px 2px 0 #2f8e3d, 1px 3px 0 #2e8b3c, 1px 4px 0 #2d883b, 1px 5px 1px #257030, 0 6px 4px rgba(100, 124, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char9 {
+  color: #37a648;
+  text-shadow: -1px 0 1px #50c462, 1px 0 1px #50c462, -1px 1px 0 #329741, -1px 2px 0 #31933f, -1px 3px 0 #2f8f3e, -1px 4px 0 #2f8d3d, -1px 5px 1px #2f8d3d, 1px 1px 0 #329741, 1px 2px 0 #31933f, 1px 3px 0 #2f8f3e, 1px 4px 0 #2f8d3d, 1px 5px 1px #267332, 0 6px 4px rgba(100, 128, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char10 {
+  color: #39ac4a;
+  text-shadow: -1px 0 1px #57c767, 1px 0 1px #57c767, -1px 1px 0 #339c43, -1px 2px 0 #329741, -1px 3px 0 #319440, -1px 4px 0 #2f8f3e, -1px 5px 1px #277733, 1px 1px 0 #339c43, 1px 2px 0 #329741, 1px 3px 0 #319440, 1px 4px 0 #2f8f3e, 1px 5px 1px #277733, 0 6px 4px rgba(100, 132, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char11 {
+  color: #3bb04c;
+  text-shadow: -1px 0 1px #5bc86b, 1px 0 1px #5bc86b, -1px 1px 0 #35a045, -1px 2px 0 #349d44, -1px 3px 0 #339942, -1px 4px 0 #319640, -1px 5px 1px #297b35, 1px 1px 0 #35a045, 1px 2px 0 #349d44, 1px 3px 0 #339942, 1px 4px 0 #319640, 1px 5px 1px #297b35, 0 6px 4px rgba(100, 136, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char12 {
+  color: #3db74f;
+  text-shadow: -1px 0 1px #5ec96e, 1px 0 1px #5ec96e, -1px 1px 0 #37a547, -1px 2px 0 #35a146, -1px 3px 0 #349d34, -1px 4px 0 #339a33, -1px 5px 1px #2a7f2a, 1px 1px 0 #37a547, 1px 2px 0 #35a146, 1px 3px 0 #349d34, 1px 4px 0 #339a33, 1px 5px 1px #2a7f2a, 0 6px 4px rgba(100, 140, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char13 {
+  color: #3fbd3f;
+  text-shadow: -1px 0 1px #63cb63, 1px 0 1px #63cb63, -1px 1px 0 #39ab39, -1px 2px 0 #37a637, -1px 3px 0 #36a135, -1px 4px 0 #359f35, -1px 5px 1px #2c832b, 1px 1px 0 #39ab39, 1px 2px 0 #37a637, 1px 3px 0 #36a135, 1px 4px 0 #359f35, 1px 5px 1px #2c832b, 0 6px 4px rgba(100, 144, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char14 {
+  color: #42bf41;
+  text-shadow: -1px 0 1px #67cc67, 1px 0 1px #67cc67, -1px 1px 0 #3aaf3a, -1px 2px 0 #39ab39, -1px 3px 0 #38a737, -1px 4px 0 #36a336, -1px 5px 1px #2d872d, 1px 1px 0 #3aaf3a, 1px 2px 0 #39ab39, 1px 3px 0 #38a737, 1px 4px 0 #36a336, 1px 5px 1px #2d872d, 0 6px 4px rgba(100, 148, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char15 {
+  color: #48c148;
+  text-shadow: -1px 0 1px #6cce6c, 1px 0 1px #6cce6c, -1px 1px 0 #3cb33b, -1px 2px 0 #3bb03b, -1px 3px 0 #39ac39, -1px 4px 0 #38a737, -1px 5px 1px #2e8b2e, 1px 1px 0 #3cb33b, 1px 2px 0 #3bb03b, 1px 3px 0 #39ac39, 1px 4px 0 #38a737, 1px 5px 1px #2e8b2e, 0 6px 4px rgba(100, 152, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h1 .char16 {
+  color: #4ec34d;
+  text-shadow: -1px 0 1px #70cf70, 1px 0 1px #70cf70, -1px 1px 0 #3eb93d, -1px 2px 0 #3cb53c, -1px 3px 0 #3bb03b, -1px 4px 0 #39ac39, -1px 5px 1px #2f8e2f, 1px 1px 0 #3eb93d, 1px 2px 0 #3cb53c, 1px 3px 0 #3bb03b, 1px 4px 0 #39ac39, 1px 5px 1px #2f8e2f, 0 6px 4px rgba(100, 156, 96, 0.84), 0 -6px 8px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
